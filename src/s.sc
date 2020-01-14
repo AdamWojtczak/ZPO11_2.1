@@ -16,8 +16,8 @@ for(c <- splitted){
       stary_operator = "-"
     case a
       if Try(a.toInt).isSuccess =>
-        liczba=a.toInt;
-        flaga = true
+      liczba=a.toInt;
+      flaga = true
     case _ =>
       throw new NumberFormatException
   }
