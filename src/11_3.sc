@@ -16,10 +16,7 @@ def functionName (string: String) : Boolean =
       case _ =>
     }
     if (x < 0)
-    {
-      false
-    }
-
+      return false
   }
   val result = binar_parenthesis.foldLeft(0) (_+_)
   if (result == 0)
